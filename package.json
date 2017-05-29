@@ -1,0 +1,26 @@
+{
+  "name": "angularjs",
+  "version": "1.0.0",
+  "description": "ejercicios angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danicrom7/angular.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "daniel garcia lindo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danicrom7/angular/issues"
+  },
+  "homepage": "https://github.com/danicrom7/angular#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angularjs": "0.0.1"
+  }
+}
