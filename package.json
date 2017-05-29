@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/danicrom7/angular#readme",
   "dependencies": {
-    "angular": "^1.6.4",
-    "angularjs": "0.0.1"
+    "angular": "^1.6.4"
+    
   }
 }
