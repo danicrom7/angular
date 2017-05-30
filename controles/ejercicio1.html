@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ejercicio 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .positivo{
+                color: red;
+            }
+            .negativo{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body ng-app="miApp" ng-controller="MainController as $ctrl">
+       <form name="formulario">
+
+            <label for="incremento">pon el numero</label>
+            <input type="text" id="incremento" name="incremento" ng-model="$ctrl.incremento">
+            <input type="button" id="btn1" value="+" ng-click="$ctrl.botonMas()">
+            <input type="button" id="btn2" value="-" ng-click="$ctrl.botonMenos()">
+
+
+       </form>
+
+   <p ng-class="{positivo:$ctrl.total>=1,negativo:$ctrl.total<0}">Cuentas 
+      {{$ctrl.total}}</p>
+       <script src="../../node_modules/angular/angular.min.js"></script>
+       <script src="../controles/js/ejer1.js"></script>
+
+    </body>
+</html>
